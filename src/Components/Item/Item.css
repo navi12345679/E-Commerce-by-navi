@@ -1,6 +1,7 @@
 
 .item{
     width: 250px;
+    margin: 25px;
 }
 .item p{
     margin: 6px 0px;
@@ -27,6 +28,6 @@
 }
 .item img{
     height: 300px;
-    width: 300px;
-
+    width: 250px;
+   
 }

@@ -1,0 +1,50 @@
+.footer-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 50px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+      list-style: none;
+       gap: 60px;
+       color: #252525;
+       font-size: 20px;
+}
+   .footer-links li{
+    cursor: pointer;
+      }
+ .aboutlink p{
+    display: flex;
+    flex-direction: column; 
+ padding-bottom: 10px;
+    text-align: left;
+     }
+ .companylink p{
+display: flex;
+flex-direction: column;
+ padding-bottom: 10px;
+ text-align: left;
+ }
+ .aboutlink hr{
+    width: 100px;
+ }
+ .companylink hr{
+    width: 100px;
+     }
+     .productlink hr{
+        width: 100px;
+     }
+     .contactlink hr{
+        width: 100px;
+     }
+     .contactlink p{
+     display: flex;
+flex-direction: column;
+ padding-bottom: 10px;
+ text-align: left;
+     }

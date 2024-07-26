@@ -2,7 +2,6 @@ import ShopCategory from '../../Pages/ShopCategory';
 import WMN1 from './WMN1.png';
 import WMN2 from  './WMN2.png';
 import  WMN3 from './WMN3.png';
-import  WMN4 from  './WMN4.png';
 import  WMN5 from './WMN5.png';
 import  WMN6 from  './WMN6.png';
 import  MN1 from  './MEN1.png';
@@ -44,17 +43,9 @@ let data_product1 = [
     new_price: 4600.00,
     old_price:5588.50,
 },
-{
-    id:4,
-    name: "Pink Women Suits Prom Tuxedo Slim Fit Blazer Pants ",
-    category:"women",
-    image:WMN4,
-    new_price: 800.00,
-    old_price:1200.50,
 
-},
 {
-id:5,
+id:4,
 name: "AKKRITI BY PANTALOONS Women Blue Printed A-Line Top",
 category:"women",
 image:WMN5,
@@ -62,7 +53,7 @@ new_price: 4600.00,
 old_price:5588.50,
 },
 {
-id:6,
+id:5,
 name: "Georgia Top",
 category:"women",
 image:WMN6,
@@ -71,7 +62,7 @@ old_price:1200.50,
 
 },
 {
-    id:7,
+    id:6,
     name: "DOUBLE POCKET TWILL SHIRT",
     category:"men",
     image:MN1,
@@ -80,7 +71,7 @@ old_price:1200.50,
     
     },
     {
-        id:8,
+        id:7,
         name: "BLACK AND GREY CHECKERED OVERSIZED OVERSHIRT",
         category:"men",
         image:MN2,
@@ -89,7 +80,7 @@ old_price:1200.50,
         
         },
         {
-            id:9,
+            id:8,
             name: "Zipper Collar Cotton Twill White Shirt",
             category:"men",
             image:MN3,
@@ -98,7 +89,7 @@ old_price:1200.50,
             
             },
             {
-                id:10,
+                id:9,
                 name: "FROSTTARTAN CHECKMATE- WHITE AND GREY CHECKERED OVERSIZED OVERSHIRT",
                 category:"men",
                 image:MN4,
@@ -107,7 +98,7 @@ old_price:1200.50,
                 
                 },
                 {
-                    id:11,
+                    id:10,
                     name: "Pink Chick Layers Party Dress -Navy Multi",
                     category:"kid",
                     image:KD1,
@@ -116,7 +107,7 @@ old_price:1200.50,
                     
                     },
                     {
-                        id:12,
+                        id:11,
                         name: "Girls Drop Shoulder Butterfly Dress",
                         category:"kid",
                         image:KD2,
@@ -124,7 +115,7 @@ old_price:1200.50,
                         old_price:1500.50,
                         },
                         {
-                            id:13,
+                            id:12,
                             name: "SIMBA VELVET CO-ORD SET",
                             category:"kid",
                             image:KD3,
@@ -133,7 +124,7 @@ old_price:1200.50,
                             
                             },
                             {
-                                id:14,
+                                id:13,
                                 name: "Organic Cotton Muslin Co-Ord Set | Shirt & Shorts |",
                                 category:"kid",
                                 image:KD4,
@@ -142,7 +133,7 @@ old_price:1200.50,
    
                                 },
                                 {
-                                    id:15,
+                                    id:14,
                                     name: "While fashioned pearl lehenga",
                                     image:WN1,
                                     new_price: 1500.00,
@@ -150,7 +141,7 @@ old_price:1200.50,
                                 
                                 },
                                 {
-                                    id:16,
+                                    id:15,
                                     name: "Light Brown Embriodered saree",
                                     category:"women",
                                     image:WN2,
@@ -158,7 +149,7 @@ old_price:1200.50,
                                     old_price:6000.50,
                                 },
                                 {
-                                    id:17,
+                                    id:16,
                                     name: "Green georget anarkali Salwar",
                                     category:"women",
                                     image:WN3,
@@ -166,7 +157,7 @@ old_price:1200.50,
                                     old_price:5588.50,
                                 },
                                 {
-                                    id:18,
+                                    id:17,
                                     name: "Net sky blue Lehenga",
                                     category:"women",
                                     image:WN4,

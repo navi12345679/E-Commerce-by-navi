@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar  from './Components/Navbar/Navbar.jsx';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Shop from './Pages/Shop.jsx';
 import LoginSignup from './Pages/LoginSignup.jsx';
 import ShopCategory from './Pages/ShopCategory.jsx';
@@ -12,10 +12,12 @@ import mens_banner from './Components/assets/men_banner.png';
 import womens_banner from './Components/assets/women_banner.png';
 import kids_banner from './Components/assets/kids_banner1.png';
 
+
 function App() {
+  
   return (
     <div className='body'>
-      <BrowserRouter>
+      <Router>
     <Navbar/>
     <Routes>
       <Route path='/' element={<Shop/>}/>
@@ -28,8 +30,9 @@ function App() {
     <Route path='/cart' element={<Cart/>}/>
     <Route path='/login' element={<LoginSignup/>}/>
     </Routes>
-    </BrowserRouter>
+    </Router>
     <Footer/>
+    
     </div>    
   )
 }
